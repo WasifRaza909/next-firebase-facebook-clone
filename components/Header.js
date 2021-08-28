@@ -65,7 +65,7 @@ function Header() {
           layout="fixed"
         />
 
-        <p className="font-semibold pr-3 whitespace-nowrap">
+        <p className="hidden lg:inline-flex text-sm font-semibold pr-3 whitespace-nowrap">
           {session.user.name}
         </p>
         <ViewGridIcon className="icon" />
